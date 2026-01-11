@@ -9,6 +9,8 @@
   --light-gray-border: #C4C4C4;
   --orange: #FD661F;
   --link-color: #30B0FF;
+
+  --bs-body-font-family: 'Afacad', sans-serif;
 }
 
 /* @theme inline {
@@ -28,4 +30,15 @@
 body {
   background: var(--off-white-background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar div {
+  background: var(--light-green-background);
+}
+
+.name-home {
+  color: var(--orange);
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
 }
