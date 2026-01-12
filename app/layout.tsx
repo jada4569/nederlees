@@ -1,17 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Afacad, Raleway, Inter } from "next/font/google";
+import Image from "next/image";
+import { Afacad, Raleway, Inter } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.css'
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import Navbar from "./components/Navbar";
 
 const afacad = Afacad({
   variable: "--font-afacad",
@@ -40,10 +32,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body>
+        <Navbar/>
+
+        {/* Footer */}
+        <footer className="light-green-bg footer">
+          <div className="">
+            <a className="name-home afacad-font" href="/">
+              <Image src="logo.svg" alt="Nederlees Logo" width="50" height="50" />
+              Nederlees
+            </a>
+          </div>
+          <div className="text-center mail-to"><a href="mailto:nederlees@gmail.com">nederlees@gmail.com</a></div>
+          <div className="text-center copyright">Copyright © 2026 Nederlees - All Rights Reserved.</div>
+        </footer>
       </body>
     </html>
   );
