@@ -43,7 +43,7 @@ body {
 .nav-item {
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 1.1em;
+  font-size: 18;
   font-weight: 500;
 }
 
@@ -62,7 +62,7 @@ body {
 .name-home {
   color: var(--dark-green);
   text-decoration: none;
-  font-size: 1.4em;
+  font-size: 24;
   font-weight: 350;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -70,7 +70,17 @@ body {
 
 .footer {
   position: fixed;
+  padding: 5px;
   left: 0;
   bottom: 0;
   width: 100%;
+}
+
+.footer-text {
+  font-size: 14;
+}
+
+.mail-to {
+  color: var(--dark-green);
+  text-decoration: none;
 }
