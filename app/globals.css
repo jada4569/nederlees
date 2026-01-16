@@ -33,16 +33,45 @@ body {
   background: var(--light-green-background);
 }
 
+.off-white-bg {
+  background: var(--off-white-background);
+}
+
+.dark-green-gb {
+  background: var(--dark-green);
+}
+
 .dark-green-text {
   color: var(--dark-green);
 }
 
-.orange-color {
+.orange-text {
   color: var(--orange);
 }
 
+.dark-gray-text {
+  color: var(--dark-gray-text);
+}
+
+.link-text {
+  color: var(--link-color);
+}
+
+.white-text {
+  color: white;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
 .orange-button {
-  background-color: #FD661F; 
+  background-color: var(--orange); 
+  color: white;
+}
+
+.green-button {
+  background-color: var(--dark-green);
   color: white;
 }
 
@@ -92,8 +121,11 @@ body {
   margin-left: -30;
 }
 
+.align-center {
+  text-align: center;
+}
+
 .footer {
-  position: fixed;
   padding: 5px;
   left: 0;
   bottom: 0;
