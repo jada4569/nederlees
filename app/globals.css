@@ -33,6 +33,19 @@ body {
   background: var(--light-green-background);
 }
 
+.dark-green-text {
+  color: var(--dark-green);
+}
+
+.orange-color {
+  color: var(--orange);
+}
+
+.orange-button {
+  background-color: #FD661F; 
+  color: white;
+}
+
 .navbar {
   padding-top: 0;
   padding-bottom: 0;
@@ -66,6 +79,17 @@ body {
   font-weight: 350;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.written-by-badge {
+  background-color: white; 
+  color: black; 
+  font-weight: 450; 
+  font-size: 14px;
+}
+
+.canal-img {
+  margin-left: -30;
 }
 
 .footer {

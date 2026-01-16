@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       {/* Main Body of Page */}
       <main>
-
+        
       </main>
     </div>
   );

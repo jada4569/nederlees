@@ -35,6 +35,8 @@ export default function RootLayout({
       <body>
         <Navbar/>
 
+        {children}
+
         {/* Footer */}
         <footer className="light-green-bg footer">
           <div className="container">
@@ -45,8 +47,8 @@ export default function RootLayout({
               </div>
               <div className="col-4 text-center raleway-font p-3 footer-text">
                 <div>
-                  <a className="mail-to" href="mailto:nederlees@gmail.com">
-                    Email: nederlees@gmail.com
+                  <a className="mail-to" href="mailto:info@nederlees.nl">
+                    Email: info@nederlees.nl
                   </a>
                 </div>
                 <div className="mail-to">
