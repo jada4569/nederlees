@@ -229,6 +229,17 @@ body {
   max-width: 10rem;
 }
 
+.reader-button:hover {
+  background: var(--off-white-background);
+  color: var(--dark-blue);
+}
+
+.reader-button {
+  background-color: var(--off-white-background);
+  color: var(--link-color);
+  border: none;
+}
+
 .footer {
   padding: 5px;
   left: 0;
