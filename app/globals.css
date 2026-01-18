@@ -55,6 +55,7 @@ body {
 
 .link-text {
   color: var(--link-color);
+  text-decoration: none;
 }
 
 .white-text {
@@ -129,9 +130,27 @@ body {
   text-align: left;
 }
 
-.link-hover:hover {
+.cefr-toggle-btn {
+  background-color: var(--off-white-background);
+  color: var(--link-color);
+  border: none;
+}
+
+.cefr-toggle-btn:hover {
   background: var(--off-white-background);
   color: var(--dark-blue);
+}
+
+.cefr-toggle-btn:active,
+.cefr-toggle-btn.active,
+.cefr-toggle-btn[aria-expanded="true"] {
+  background-color: var(--dark-green) !important;
+  color: white !important;
+}
+
+.cefr-toggle-btn:focus,
+.cefr-toggle-btn:focus-visible {
+  box-shadow: none;
 }
 
 .cefr-parent {
@@ -181,6 +200,16 @@ body {
   width: 80%; /* Needs a width less than 100% */
   margin-left: auto;
   margin-right: auto;
+}
+
+.readers-width {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-border-radius {
+  border-radius: 15px;
 }
 
 .footer {

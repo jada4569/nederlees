@@ -1,7 +1,6 @@
 'use client';
 
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from 'react';
 import { Button, Collapse } from 'react-bootstrap';
 
@@ -83,7 +82,7 @@ export default function Home() {
             </div>
             <div className="align-center">
               <Button onClick={() => setOpen(!open)} aria-controls="cefr-levels" aria-expanded={open} 
-              className="off-white-bg link-text border-0 link-hover">
+              className="cefr-toggle-btn">
                 What do these levels mean?
               </Button>
               <div className="cefr-parent">
@@ -167,18 +166,89 @@ export default function Home() {
                       </div>
                     </div>
                     <p className="dark-gray-text py-3">
-                        You can find out more information about the CEFR leveling system <a href="https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bc7b" className="link-text">here</a>
-                      </p>
+                        You can find out more information about the CEFR leveling system 
+                        <a href="https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bc7b" className="link-text"> here</a>.
+                    </p>
                   </div>
                 </Collapse>
               </div>
             </div>
-
-
           </div>
         </section>
 
+        {/* Readers For Everyone Section*/}
+        <section className="pb-5">
+          <div className="container align-center">
+            <h2 className="inter-font py-3 dark-green-text bold-font align-center" >Readers For Everyone</h2>
+            <p className="dark-gray-text readers-width raleway-font py-3">
+              From romance, science fiction, and horror to Dutch folklore and culture, there are plenty of stories to enjoy and take your 
+              Dutch comprehension to the next level. 
+            </p>
+          </div>
+        </section>
 
+        {/* Why Use Graded Readers Section*/}
+        <section className="pb-5">
+          <div className="container raleway-font p-3 align-center">
+            <div className="row align-items-center mb-4">
+              <div className="col-md-7">
+                <h2 className="inter-font bold-font dark-green-text pb-3">Why Use Graded Readers?</h2>
+                <div className="row align-items-center mb-4">
+                  <div className="col-2">
+                    <div className="circle-span">
+                      1
+                    </div>
+                  </div>
+                  <div className="col-10 align-left">
+                    <p className="dark-gray-text bold-font">
+                      Learn words in context
+                    </p>
+                    <p className="dark-gray-text">
+                      Understand how vocabulary is used in conte
+                    </p>
+                  </div>
+                </div>
+                <div className="row align-items-center mb-4">
+                  <div className="col-2">
+                    <div className="circle-span">
+                      1
+                    </div>
+                  </div>
+                  <div className="col-10 align-left">
+                    <p className="dark-gray-text bold-font">
+                      Immersive Grammar
+                    </p>
+                    <p className="dark-gray-text">
+                      Start recognizing and understanding grammar naturally
+                    </p>
+                  </div>
+                </div>
+                <div className="row align-items-center mb-4">
+                  <div className="col-2">
+                    <div className="circle-span">
+                      1
+                    </div>
+                  </div>
+                  <div className="col-10 align-left">
+                    <p className="dark-gray-text bold-font">
+                      Start thinking in Dutch
+                    </p>
+                    <p className="dark-gray-text">
+                      As you get more used to reading in Dutch, your need to translate in your head will decrease
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-5">
+                <Image className="image-border-radius" src="/holding-book.jpg" alt="Hands holding a book" width={400} height={400} />
+              </div>
+            </div>
+            <p className="dark-gray-text pt-2">
+            You can find out more information about the science behind graded readers
+            <a href="https://www.researchgate.net/publication/317816087_The_Benefits_of_Graded_Reading" className="link-text"> here</a>.
+          </p>
+          </div>
+        </section>
       </main>
     </div>
   );
