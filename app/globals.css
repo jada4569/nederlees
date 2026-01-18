@@ -125,6 +125,10 @@ body {
   text-align: center;
 }
 
+.align-left {
+  text-align: left;
+}
+
 .link-hover:hover {
   background: var(--off-white-background);
   color: var(--dark-blue);
@@ -138,7 +142,7 @@ body {
 
 .cefr-collapse {
   width: 50rem;
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
   justify-content: space-between;
   border-radius: 15px;
@@ -146,6 +150,37 @@ body {
   outline-width: 1px;
   outline-color: var(--light-gray-border);
   outline-offset: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.cefr-span {
+  display: block;
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background: var(--light-green-background);
+  border-radius: 15px;
+  border: 1px solid var(--dark-green);
+}
+
+.circle-span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3rem;
+  height: 3rem;
+  padding: 0.5rem;
+  background: var(--dark-green);
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.centered-row {
+  width: 80%; /* Needs a width less than 100% */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer {

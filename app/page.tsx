@@ -1,6 +1,7 @@
 'use client';
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from 'react';
 import { Button, Collapse } from 'react-bootstrap';
 
@@ -91,19 +92,83 @@ export default function Home() {
                     <h2 className="dark-green-text bold-font">
                       CEFR leveling System
                     </h2>
-                    <p className="dark-gray-text">
+                    <p className="dark-gray-text py-3">
                       NederLees uses the Common European Framework of Reference for Languages (CEFR), which describes how well someone can 
                       understand and use a language. This framework has six levels: A1, A2, B1, B2, C1, and C2. The readers on this site 
                       will be mainly aimed towards students between A0 and B1 level, with a few stories beyond B1.
                     </p>
-                    <span className="light-green-bg dark-green-border">
-                      <div className="row">
-                        <div className="col">
-                          
+                    <div className="cefr-span">
+                      <div className="row align-items-center mb-4">
+                        <div className="col-2">
+                          <div className="circle-span">
+                            A0
+                          </div>
+                        </div>
+                        <div className="col-10 align-left">
+                          <p className="dark-green-text bold-font">
+                            Complete Beginner
+                          </p>
+                          <p className="dark-gray-text">
+                            At this level, you’re just starting out. You may know a few individual words or phrases like “hello” or “thank you,” 
+                            but you can’t really use the language yet. A0 is not an official CEFR level, but it is often used to describe absolute 
+                            beginners. If you are new to Dutch, start here!
+                          </p>
                         </div>
                       </div>
-
-                    </span>
+                      <div className="row align-items-center mb-4">
+                        <div className="col-2">
+                          <div className="circle-span">
+                            A1
+                          </div>
+                        </div>
+                        <div className="col-10 align-left">
+                          <p className="dark-green-text bold-font">
+                            Beginner
+                          </p>
+                          <p className="dark-gray-text">
+                            You can understand and use very simple sentences. You can introduce yourself, ask and answer basic questions (like 
+                            "Where do you live?" or "Do you have brothers or sisters?"), and interact in a very limited way if the other person 
+                            speaks slowly. Students at A1 level know ~1000 words. 
+                          </p>
+                        </div>
+                      </div>
+                      <div className="row align-items-center mb-4">
+                        <div className="col-2">
+                          <div className="circle-span">
+                            A2
+                          </div>
+                        </div>
+                        <div className="col-10 align-left">
+                          <p className="dark-green-text bold-font">
+                            Elementary
+                          </p>
+                          <p className="dark-gray-text">
+                            You can handle simple everyday situations, like ordering food, giving directions, or talking about your job, family, 
+                            or hobbies. You can understand common phrases and basic written texts. Students at A2 level know ~2500 words. 
+                          </p>
+                        </div>
+                      </div>
+                      <div className="row align-items-center mb-4">
+                        <div className="col-2">
+                          <div className="circle-span">
+                            B1
+                          </div>
+                        </div>
+                        <div className="col-10 align-left">
+                          <p className="dark-green-text bold-font">
+                            Lower Intermediate
+                          </p>
+                          <p className="dark-gray-text">
+                            You’re able to speak and understand more freely in everyday situations. You can describe events and understand the 
+                            main points of spoken or written texts. If you have only used apps, we recommend that you start with our A1 or A2 level 
+                            readers. Students at B1 level know ~5000 words. 
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="dark-gray-text py-3">
+                        You can find out more information about the CEFR leveling system <a href="https://rm.coe.int/CoERMPublicCommonSearchServices/DisplayDCTMContent?documentId=090000168045bc7b" className="link-text">here</a>
+                      </p>
                   </div>
                 </Collapse>
               </div>
