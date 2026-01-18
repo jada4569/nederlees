@@ -212,6 +212,10 @@ body {
   border-radius: 15px;
 }
 
+.about-size {
+  font-size: large;
+}
+
 .footer {
   padding: 5px;
   left: 0;
