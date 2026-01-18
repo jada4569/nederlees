@@ -5,14 +5,14 @@ export default function Home() {
     <div>
       {/* Main Body of Page */}
       <main>
-        <section className="off-white-bg about-size">
+        <section className="off-white-bg large-text-size">
           <div className="container raleway-font p-5">
             <div className="row">
               <div className="col-md-4 pb-5">
                 <Image className="image-border-radius" src="/togetherAbout.png" alt="Rick and Jada standing together" width={350} height={500} />
               </div>
               <div className="col-md-8">
-                <h2 className="bold-font orange-text align-center pb-3">About Nederlees</h2>
+                <h2 className="bold-font orange-text align-center pb-3">About NederLees</h2>
                 <p className="dark-gray-text ps-5 pb-4">NederLees is a project started by two language-loving friends. Jada and Rick met online while in university and quickly became friends through
                 their shared passion for language learning. Jada became a software engineer, and Rick became a linguist/language teacher with an interest in writing.
                 Combining their skills and interests made perfect sense, and NederLees was born. </p>

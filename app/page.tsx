@@ -28,7 +28,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-5 canal-img">
-                <Image src="/amsterdam-canal.jpg" alt="Amsterdam canal" width="450" height="300" />
+                <Image className="image-border-radius" src="/amsterdam-canal.jpg" alt="Amsterdam canal" width="475" height="325" />
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function Home() {
             </div>
             <div className="align-center">
               <Button onClick={() => setOpen(!open)} aria-controls="cefr-levels" aria-expanded={open} 
-              className="cefr-toggle-btn">
+              className="cefr-toggle-btn large-text-size">
                 What do these levels mean?
               </Button>
               <div className="cefr-parent">
@@ -177,7 +177,7 @@ export default function Home() {
         </section>
 
         {/* Readers For Everyone Section*/}
-        <section className="pb-5">
+        <section className="pb-5 large-text-size">
           <div className="container align-center">
             <h2 className="inter-font py-3 dark-green-text bold-font align-center" >Readers For Everyone</h2>
             <p className="dark-gray-text readers-width raleway-font py-3">
@@ -188,7 +188,7 @@ export default function Home() {
         </section>
 
         {/* Why Use Graded Readers Section*/}
-        <section className="pb-5">
+        <section className="pb-5 large-text-size">
           <div className="container raleway-font p-3 align-center">
             <div className="row align-items-center mb-4">
               <div className="col-md-7">
@@ -244,7 +244,7 @@ export default function Home() {
               </div>
             </div>
             <p className="dark-gray-text pt-2">
-            You can find out more information about the science behind graded readers
+            Learn more about the science behind graded readers
             <a href="https://www.researchgate.net/publication/317816087_The_Benefits_of_Graded_Reading" className="link-text"> here</a>.
           </p>
           </div>
