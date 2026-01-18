@@ -1,6 +1,13 @@
+'use client';
+
 import Image from "next/image";
+import { useState } from 'react';
+import { Button, Collapse } from 'react-bootstrap';
 
 export default function Home() {
+
+  const [open, setOpen] = useState(false);
+
   return (
     <div>
       {/* Main Body of Page */}
@@ -74,7 +81,32 @@ export default function Home() {
               </div>
             </div>
             <div className="align-center">
-              <button type="button" className="btn link-text">What do these levels mean?</button>
+              <Button onClick={() => setOpen(!open)} aria-controls="cefr-levels" aria-expanded={open} 
+              className="off-white-bg link-text border-0 link-hover">
+                What do these levels mean?
+              </Button>
+              <div className="cefr-parent">
+                <Collapse in={open} className="cefr-collapse">
+                  <div id="cefr-levels">
+                    <h2 className="dark-green-text bold-font">
+                      CEFR leveling System
+                    </h2>
+                    <p className="dark-gray-text">
+                      NederLees uses the Common European Framework of Reference for Languages (CEFR), which describes how well someone can 
+                      understand and use a language. This framework has six levels: A1, A2, B1, B2, C1, and C2. The readers on this site 
+                      will be mainly aimed towards students between A0 and B1 level, with a few stories beyond B1.
+                    </p>
+                    <span className="light-green-bg dark-green-border">
+                      <div className="row">
+                        <div className="col">
+                          
+                        </div>
+                      </div>
+
+                    </span>
+                  </div>
+                </Collapse>
+              </div>
             </div>
 
 

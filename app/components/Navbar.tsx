@@ -11,8 +11,8 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
             <div className="container-fluid light-green-bg">
                 <a className="name-home afacad-font" href="/">
-                    <Image src="logo.svg" alt="Nederlees Logo" width="50" height="50" />
-                    Nederlees
+                    <Image src="logo.svg" alt="NederLees Logo" width="50" height="50" />
+                    NederLees
                 </a>              
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

@@ -42,8 +42,8 @@ export default function RootLayout({
           <div className="container">
             <div className="row">
               <div className="col-8 p-1 name-home afacad-font">
-                <Image src="logo.svg" alt="Nederlees Logo" width="50" height="50" />
-                Nederlees
+                <Image src="logo.svg" alt="NederLees Logo" width="50" height="50" />
+                NederLees
               </div>
               <div className="col-4 text-center raleway-font p-3 footer-text">
                 <div>
@@ -52,7 +52,7 @@ export default function RootLayout({
                   </a>
                 </div>
                 <div className="mail-to">
-                  Copyright © 2026 Nederlees - All Rights Reserved.
+                  Copyright © 2026 NederLees - All Rights Reserved.
                 </div>
               </div>
             </div>
