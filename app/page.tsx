@@ -18,7 +18,7 @@ export default function Home() {
             <div className="row align-items-center g-5">
               <div className="col-lg-7">
                 <span className="badge p-3 written-by-badge" >Written by a Dutch Linguist</span>
-                <h1 className="display-4 fw-bold my-4 dark-green-text" >
+                <h1 className="fw-bold my-4 dark-green-text" >
                   Level up your
                   <span className="orange-text"> Dutch </span>
                   language skills through reading
@@ -28,7 +28,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-5 canal-img">
-                <Image className="image-border-radius" src="/amsterdam-canal.jpg" alt="Amsterdam canal" width="475" height="325" />
+                <Image className="image-border-radius" src="/amsterdam-canal.jpg" alt="Amsterdam canal" width={475} height={325} />
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-6 col-lg-3 col-sm-12 p-3">
                 <div className="card">
-                  <Image src="/kingsday.jpg" className="card-img-top" alt="Dutch people celebrating King's Day" width="200" height="150" />
+                  <Image src="/kingsday.jpg" className="card-img-top" alt="Dutch people celebrating King's Day" width={200} height={150} />
                   <div className="card-body">
                     <h5 className="card-title dark-green-text bold-font">A0 Level Story: King's Day</h5>
                     <p className="card-text dark-gray-text">A story about how Dutch people celebrate King's Day, the king's birthday</p>
@@ -51,7 +51,7 @@ export default function Home() {
               </div>
               <div className="col-md-6 col-lg-3 col-sm-12 p-3">
                 <div className="card">
-                  <Image src="/new-license.jpeg" className="card-img-top" alt="Car keys on a license" width="200" height="150" />
+                  <Image src="/new-license.jpeg" className="card-img-top" alt="Car keys on a license" width={200} height={150} />
                   <div className="card-body">
                     <h5 className="card-title dark-green-text bold-font">A1 Level Story: A New Driver's License</h5>
                     <p className="card-text dark-gray-text">A story about a young man renewing his driver's license in the Netherlands</p>
@@ -61,7 +61,7 @@ export default function Home() {
               </div>
               <div className="col-md-6 col-lg-3 col-sm-12 p-3">
                 <div className="card">
-                  <Image src="/amissedflight.jpg" className="card-img-top" alt="An airport" width="200" height="150" />
+                  <Image src="/amissedflight.jpg" className="card-img-top" alt="An airport" width={200} height={150} />
                   <div className="card-body">
                     <h5 className="card-title  dark-green-text bold-font" >A2 Level Story: A Missed Flight</h5>
                     <p className="card-text dark-gray-text">A story about a family missing their flight and trying to find a solution</p>
@@ -71,7 +71,7 @@ export default function Home() {
               </div>
               <div className="col-md-6 col-lg-3 col-sm-12 p-3">
                 <div className="card">
-                  <Image src="/bokkenrijders.jpg" className="card-img-top" alt="Picture of the bokkenrijders from Dutch folklore" width="200" height="150" />
+                  <Image src="/bokkenrijders.jpg" className="card-img-top" alt="Picture of the bokkenrijders from Dutch folklore" width={200} height={150} />
                   <div className="card-body">
                     <h5 className="card-title dark-green-text bold-font">B1 Level Story: The Buckriders</h5>
                     <p className="card-text dark-gray-text">A story about the buckriders, a famous band of robbers from Dutch folklore</p>
@@ -98,12 +98,12 @@ export default function Home() {
                     </p>
                     <div className="cefr-span">
                       <div className="row align-items-center mb-4">
-                        <div className="col-2">
+                        <div className="col-12 col-md-2 mb-2 mb-md-0">
                           <div className="circle-span">
                             A0
                           </div>
                         </div>
-                        <div className="col-10 align-left">
+                        <div className="col-12 col-md-10 align-left">
                           <p className="dark-green-text bold-font">
                             Complete Beginner
                           </p>
@@ -115,12 +115,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="row align-items-center mb-4">
-                        <div className="col-2">
+                        <div className="col-12 col-md-2 mb-2 mb-md-0">
                           <div className="circle-span">
                             A1
                           </div>
                         </div>
-                        <div className="col-10 align-left">
+                        <div className="col-12 col-md-10 align-left">
                           <p className="dark-green-text bold-font">
                             Beginner
                           </p>
@@ -132,12 +132,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="row align-items-center mb-4">
-                        <div className="col-2">
+                        <div className="col-12 col-md-2 mb-2 mb-md-0">
                           <div className="circle-span">
                             A2
                           </div>
                         </div>
-                        <div className="col-10 align-left">
+                        <div className="col-12 col-md-10 align-left">
                           <p className="dark-green-text bold-font">
                             Elementary
                           </p>
@@ -148,12 +148,12 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="row align-items-center mb-4">
-                        <div className="col-2">
+                        <div className="col-12 col-md-2 mb-2 mb-md-0">
                           <div className="circle-span">
                             B1
                           </div>
                         </div>
-                        <div className="col-10 align-left">
+                        <div className="col-12 col-md-10 align-left">
                           <p className="dark-green-text bold-font">
                             Lower Intermediate
                           </p>
@@ -194,27 +194,27 @@ export default function Home() {
               <div className="col-md-7">
                 <h2 className="inter-font bold-font dark-green-text pb-3">Why Use Graded Readers?</h2>
                 <div className="row align-items-center mb-4">
-                  <div className="col-2">
+                  <div className="col-12 col-md-2 mb-2 mb-md-0">
                     <div className="circle-span">
                       1
                     </div>
                   </div>
-                  <div className="col-10 align-left">
+                  <div className="col-12 col-md-10 align-left">
                     <p className="dark-gray-text bold-font">
                       Learn words in context
                     </p>
                     <p className="dark-gray-text">
-                      Understand how vocabulary is used in conte
+                      Understand how vocabulary is used in real life situations
                     </p>
                   </div>
                 </div>
                 <div className="row align-items-center mb-4">
-                  <div className="col-2">
+                  <div className="col-12 col-md-2 mb-2 mb-md-0">
                     <div className="circle-span">
-                      1
+                      2
                     </div>
                   </div>
-                  <div className="col-10 align-left">
+                  <div className="col-12 col-md-10 align-left">
                     <p className="dark-gray-text bold-font">
                       Immersive Grammar
                     </p>
@@ -224,12 +224,12 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="row align-items-center mb-4">
-                  <div className="col-2">
+                  <div className="col-12 col-md-2 mb-2 mb-md-0">
                     <div className="circle-span">
-                      1
+                      3
                     </div>
                   </div>
-                  <div className="col-10 align-left">
+                  <div className="col-12 col-md-10 align-left">
                     <p className="dark-gray-text bold-font">
                       Start thinking in Dutch
                     </p>

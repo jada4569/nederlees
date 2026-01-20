@@ -2,62 +2,54 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import Image from "next/image";
+import Image from 'next/image'
 
 export default function Navbar() {
-    const pathname = usePathname()
+  const pathname = usePathname()
 
-    return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
-            <div className="container-fluid light-green-bg">
-                <a className="name-home afacad-font" href="/">
-                    <Image src="logo.svg" alt="NederLees Logo" width="50" height="50" />
-                    NederLees
-                </a>              
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse raleway-font nav-links" id="navbarNav">
-                    <ul className="navbar-nav mx-auto">
+  return (
+    <nav className="navbar navbar-expand-lg light-green-bg">
+      <div className="container-fluid">
 
-                        <li className="nav-item">
-                            <Link
-                                href="/"
-                                className={`nav-link ${pathname === '/' ? 'active' : ''}`}
-                            >
-                                Home
-                            </Link>
-                        </li>
+        <Link href="/" className="name-home afacad-font navbar-brand d-flex align-items-center gap-2">
+          <Image src="/logo.svg" alt="NederLees Logo" width={50} height={50} />
+          NederLees
+        </Link>
 
-                        <li className="nav-item">
-                            <Link
-                                href="/readers"
-                                className={`nav-link ${pathname === '/readers' ? 'active' : ''}`}
-                            >
-                                Readers
-                            </Link>
-                        </li>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
 
-                        <li className="nav-item">
-                            <Link
-                                href="/about"
-                                className={`nav-link ${pathname === '/about' ? 'active' : ''}`}
-                            >
-                                About
-                            </Link>
-                        </li>
+        <div className="collapse navbar-collapse raleway-font" id="navbarNav">
+          <ul className="navbar-nav ms-lg-auto mb-2 mb-lg-0">
 
-                        <li className="nav-item">
-                            <Link
-                                href="/contact"
-                                className={`nav-link ${pathname === '/contact' ? 'active' : ''}`}
-                            >
-                                Contact
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    )
+            {[
+              ['/', 'Home'],
+              ['/readers', 'Readers'],
+              ['/about', 'About'],
+              ['/contact', 'Contact'],
+            ].map(([href, label]) => (
+              <li className="nav-item" key={href}>
+                <Link
+                  href={href}
+                  className={`nav-link ${pathname === href ? 'active' : ''}`}
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  )
 }
