@@ -24,6 +24,10 @@
   font-family: 'Raleway', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--off-white-background);
   margin: 0;
@@ -163,6 +167,15 @@ button {
   text-align: left;
 }
 
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
 .cefr-toggle-btn {
   background-color: var(--off-white-background);
   color: var(--link-color);
@@ -260,6 +273,15 @@ button {
   margin-right: auto;
 }
 
+.reader-section {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.reader-section:last-child {
+  border-bottom: none;
+}
+
 .image-border-radius {
   border-radius: 15px;
 }
@@ -319,6 +341,7 @@ button {
   color: var(--link-color);
   border: none;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .about-section {
