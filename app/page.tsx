@@ -24,7 +24,7 @@ export default function Home() {
                   language skills through reading
                 </h1>
                 <div className="d-flex gap-3 flex-wrap">
-                  <button className="btn btn-lg orange-button" >Get Started</button>
+                  <a className="btn btn-lg orange-button" href="/readers/" >Get Started</a>
                 </div>
               </div>
               <div className="col-lg-5 canal-img">
@@ -45,7 +45,7 @@ export default function Home() {
                   <div className="card-body">
                     <h5 className="card-title dark-green-text bold-font">A0 Level Story: King's Day</h5>
                     <p className="card-text dark-gray-text">A story about how Dutch people celebrate King's Day, the king's birthday</p>
-                    <a href="#" className="btn green-button">Read Now</a>
+                    <a href="/readers/kingsday" className="btn green-button">Read Now</a>
                   </div>
                 </div>
               </div>
@@ -55,7 +55,7 @@ export default function Home() {
                   <div className="card-body">
                     <h5 className="card-title dark-green-text bold-font">A1 Level Story: A New Driver's License</h5>
                     <p className="card-text dark-gray-text">A story about a young man renewing his driver's license in the Netherlands</p>
-                    <a href="#" className="btn green-button">Read Now</a>
+                    <a href="/readers/driverslicense" className="btn green-button">Read Now</a>
                   </div>
                 </div>
               </div>
@@ -65,7 +65,7 @@ export default function Home() {
                   <div className="card-body">
                     <h5 className="card-title  dark-green-text bold-font" >A2 Level Story: A Missed Flight</h5>
                     <p className="card-text dark-gray-text">A story about a family missing their flight and trying to find a solution</p>
-                    <a href="#" className="btn green-button">Read Now</a>
+                    <a href="/readers/amissedflight" className="btn green-button">Read Now</a>
                   </div>
                 </div>
               </div>
@@ -75,7 +75,7 @@ export default function Home() {
                   <div className="card-body">
                     <h5 className="card-title dark-green-text bold-font">B1 Level Story: The Buckriders</h5>
                     <p className="card-text dark-gray-text">A story about the buckriders, a famous band of robbers from Dutch folklore</p>
-                    <a href="#" className="btn green-button">Read Now</a>
+                    <a href="/readers/thebuckriders" className="btn green-button">Read Now</a>
                   </div>
                 </div>
               </div>

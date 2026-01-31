@@ -7,7 +7,7 @@ export default function Readers() {
       <main>
         <div className="container raleway-font off-white-bg py-5">
           <div className="align-center">
-            <Image className="image-border-radius img-fluid" src="/books.jpg" alt="Stack of books" width={350} height={350} />
+            <Image className="image-border-radius img-fluid" src="/books.jpg" alt="Stack of books" width={300} height={300} />
           </div>
           <h2 className="bold-font orange-text align-center py-3">All Our Readers</h2>
           <p className="dark-gray-text align-center mb-4">
@@ -40,7 +40,7 @@ export default function Readers() {
                     <p className="card-text dark-gray-text">
                       A short story about how Dutch people celebrate King's Day.
                     </p>
-                    <a href="#" className="btn green-button w-100">
+                    <a href="/readers/kingsday" className="btn green-button w-100">
                       Read Now
                     </a>
                   </div>
@@ -55,15 +55,15 @@ export default function Readers() {
             <div className="row g-3">
               <div className="col-12 col-sm-6 col-lg-3">
                 <div className="card h-100">
-                  <Image src="/kingsday.jpg" className="card-img-top" alt="Dutch people celebrating King's Day" width={300} height={200} />
+                  <Image src="/new-license.jpeg" className="card-img-top" alt="Car keys on a license" width={300} height={200} />
                   <div className="card-body">
                     <h5 className="card-title dark-green-text bold-font">
-                      King's Day
+                      A New Driver's License
                     </h5>
                     <p className="card-text dark-gray-text">
-                      A short story about how Dutch people celebrate King's Day.
+                      A story about a young man renewing his driver's license in the Netherlands
                     </p>
-                    <a href="#" className="btn green-button w-100">
+                    <a href="/readers/driverslicense" className="btn green-button w-100">
                       Read Now
                     </a>
                   </div>
@@ -78,15 +78,15 @@ export default function Readers() {
             <div className="row g-3">
               <div className="col-12 col-sm-6 col-lg-3">
                 <div className="card h-100">
-                  <Image src="/kingsday.jpg" className="card-img-top" alt="Dutch people celebrating King's Day" width={300} height={200} />
+                  <Image src="/amissedflight.jpg" className="card-img-top" alt="An airport" width={300} height={200} />
                   <div className="card-body">
                     <h5 className="card-title dark-green-text bold-font">
-                      King's Day
+                      A Missed Flight
                     </h5>
                     <p className="card-text dark-gray-text">
-                      A short story about how Dutch people celebrate King's Day.
+                      A story about a family missing their flight and trying to find a solution
                     </p>
-                    <a href="#" className="btn green-button w-100">
+                    <a href="/readers/amissedflight" className="btn green-button w-100">
                       Read Now
                     </a>
                   </div>
@@ -101,15 +101,15 @@ export default function Readers() {
             <div className="row g-3">
               <div className="col-12 col-sm-6 col-lg-3">
                 <div className="card h-100">
-                  <Image src="/kingsday.jpg" className="card-img-top" alt="Dutch people celebrating King's Day" width={300} height={200} />
+                  <Image src="/bokkenrijders.jpg" className="card-img-top" alt="Art depicting the Buckriders" width={300} height={200} />
                   <div className="card-body">
                     <h5 className="card-title dark-green-text bold-font">
-                      King's Day
+                      The Buckriders
                     </h5>
                     <p className="card-text dark-gray-text">
-                      A short story about how Dutch people celebrate King's Day.
+                      A story about the buckriders, a famous band of robbers from Dutch folklore
                     </p>
-                    <a href="#" className="btn green-button w-100">
+                    <a href="/readers/thebuckriders" className="btn green-button w-100">
                       Read Now
                     </a>
                   </div>

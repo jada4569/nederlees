@@ -43,14 +43,14 @@ export default function RootLayout({
         <BootstrapClient />
         <Navbar/>
 
-        {children}
+        <main className="site-main" >{children}</main>
 
         {/* Footer */}
         <footer className="light-green-bg footer">
           <div className="container">
             <div className="row">
               <div className="col-12 col-md-8 p-2 text-center text-md-start name-home afacad-font">
-                <Image src="logo.svg" alt="NederLees Logo" width={50} height={50} />
+                <Image src="/logo.svg" alt="NederLees Logo" width={50} height={50} />
                 NederLees
               </div>
               <div className="col-12 col-md-4 text-center p-2 footer-text raleway-font">
