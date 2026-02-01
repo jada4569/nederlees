@@ -50,13 +50,13 @@ export default function RootLayout({
         <footer className="light-green-bg footer">
           <div className="container">
             <div className="row">
-              <div className="col-12 col-md-8 p-2 text-center text-md-start name-home afacad-font">
+              <div className="col-12 col-md-8 p-2 align-center text-md-start name-home afacad-font">
                 <Link className="mail-to" href="/">
                   <Image src="/logo.svg" alt="NederLees Logo" width={50} height={50} />
                   NederLees
                 </Link>
               </div>
-              <div className="col-12 col-md-4 text-center p-2 footer-text raleway-font">
+              <div className="col-12 col-md-4 align-center p-2 footer-text raleway-font">
                 <div>
                   <a className="mail-to" href="mailto:info@nederlees.nl">
                     Email: info@nederlees.nl

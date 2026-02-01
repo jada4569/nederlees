@@ -18,7 +18,7 @@ export default function Readers() {
               <div className="col-6 col-md-3" key={level}>
                 <a
                   href={`#${level}`}
-                  className="reader-button w-100 py-2 text-center d-block"
+                  className="reader-button w-100 py-2 align-center d-block"
                 >
                   {level}
                 </a>

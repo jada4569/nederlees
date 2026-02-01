@@ -8,7 +8,7 @@ export default function About() {
         <section className="off-white-bg large-text-size">
           <div className="container raleway-font about-section py-4 px-3 px-md-5">
             <div className="row">
-              <div className="col-12 col-md-4 pb-4 text-center">
+              <div className="col-12 col-md-4 pb-4 align-center">
                 <Image
                   className="image-border-radius img-fluid" src="/togetherAbout.png" alt="Rick and Jada standing together" width={350} height={500} />
               </div>
