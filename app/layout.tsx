@@ -5,6 +5,7 @@ import BootstrapClient from './bootstrap-client';
 import 'bootstrap/dist/css/bootstrap.css'
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Link from 'next/link'
 
 const afacad = Afacad({
   variable: "--font-afacad",
@@ -50,8 +51,10 @@ export default function RootLayout({
           <div className="container">
             <div className="row">
               <div className="col-12 col-md-8 p-2 text-center text-md-start name-home afacad-font">
-                <Image src="/logo.svg" alt="NederLees Logo" width={50} height={50} />
-                NederLees
+                <Link className="mail-to" href="/">
+                  <Image src="/logo.svg" alt="NederLees Logo" width={50} height={50} />
+                  NederLees
+                </Link>
               </div>
               <div className="col-12 col-md-4 text-center p-2 footer-text raleway-font">
                 <div>

@@ -28,7 +28,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-5 canal-img">
-                <Image className="image-border-radius" src="/amsterdam-canal.jpg" alt="Amsterdam canal" width={475} height={325} />
+                <Image className="image-border-radius big-img" src="/amsterdam-canal.jpg" alt="Amsterdam canal" width={475} height={325} />
               </div>
             </div>
           </div>
@@ -240,7 +240,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-5">
-                <Image className="image-border-radius" src="/holding-book.jpg" alt="Hands holding a book" width={400} height={400} />
+                <Image className="image-border-radius big-img" src="/holding-book.jpg" alt="Hands holding a book" width={400} height={400} />
               </div>
             </div>
             <p className="dark-gray-text pt-2">
