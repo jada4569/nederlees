@@ -5,7 +5,8 @@ import BootstrapClient from './bootstrap-client';
 import 'bootstrap/dist/css/bootstrap.css'
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import Link from 'next/link'
+import Link from 'next/link';
+import { Analytics } from "@vercel/analytics/next";
 
 const afacad = Afacad({
   variable: "--font-afacad",
@@ -45,6 +46,7 @@ export default function RootLayout({
         <Navbar/>
 
         <main className="site-main" >{children}</main>
+        <Analytics />
 
         {/* Footer */}
         <footer className="light-green-bg footer">
