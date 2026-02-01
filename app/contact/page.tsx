@@ -11,9 +11,8 @@ export default function Contact() {
         <div className="contact-span my-5" id="contact">
 
           <form
-            action="https://formsubmit.co/info@nederlees.nl"
+            action="https://formsubmit.co/nederlees@gmail.com"
             method="POST"
-            target="_blank"
           >
             <input type="hidden" name="_captcha" value="false" />
 
