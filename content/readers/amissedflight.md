@@ -1,8 +1,22 @@
 ---
 title: "A Missed Flight"
-dutchtitle: "Te laat voor de vlucht"
-level: "A0"
+dutchTitle: "Te laat voor de vlucht"
+coverImage: "/readers/amissedflight/cover.jpg"
+level: "A2"
 summary: "A story about a family missing their flight and trying to find a solution"
+vocab:
+  - nl: "vandaag"
+    en: "today"
+  - nl: "is [3e ev.]"
+    en: "is [3rd sgl.]"
+  - nl: "zijn"
+    en: "to be"
+  - nl: "Koningsdag"
+    en: "King's Day"
+  - nl: "[de] verjaardag"
+    en: "birthday"
+  - nl: "van"
+    en: "of"
 ---
 
 Het is vakantie en de familie Bakker gaat naar Spanje. Ze moeten naar Schiphol. De ouders, Jan en Lisa, zijn blij, want ze hebben hard gewerkt en willen nu van de vakantie genieten. De kinderen, Eva (8) en Sam (10), zijn ook enthousiast.

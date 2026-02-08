@@ -1,8 +1,22 @@
 ---
 title: "The Buckriders"
-dutchtitle: "De Bokkenrijders"
+dutchTitle: "De Bokkenrijders"
+coverImage: "/readers/buckriders/cover.jpg"
 level: "B1"
 summary: "A story about the buckriders, a famous band of robbers from Dutch folklore"
+vocab:
+  - nl: "vandaag"
+    en: "today"
+  - nl: "is [3e ev.]"
+    en: "is [3rd sgl.]"
+  - nl: "zijn"
+    en: "to be"
+  - nl: "Koningsdag"
+    en: "King's Day"
+  - nl: "[de] verjaardag"
+    en: "birthday"
+  - nl: "van"
+    en: "of"
 ---
 
 De maan stond hoog in de lucht.
