@@ -17,6 +17,22 @@ vocab:
     en: "birthday"
   - nl: "van"
     en: "of"
+  - nl: "de/het"
+    en: "the"
+  - nl: "[de] koning"
+    en: "king"
+  - nl: "iedereen"
+    en: "everyone"
+  - nl: "viert [3e ev.]"
+    en: "celebrates [3rd sgl.]"
+  - nl: "vieren"
+    en: "to celebrate"
+  - nl: "[het] feest"
+    en: "party"
+  - nl: "[de] mensen"
+    en: "people"
+  - nl: "dragen [3e mv.]"
+    en: "wear [3rd pl.]"
 ---
 
 Vandaag is Koningsdag.

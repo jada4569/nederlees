@@ -375,6 +375,67 @@ button {
   }
 }
 
+.reader-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.reader-grid {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.reader-vocab {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  background: #fff;
+  position: sticky;
+  top: 1rem;
+}
+
+.vocab-title {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.1rem;
+}
+
+.vocab-list {
+  margin: 0;
+}
+
+.vocab-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0.5rem 0;
+  border-top: 1px solid #eee;
+}
+
+.vocab-row:first-child {
+  border-top: none;
+}
+
+.vocab-nl {
+  font-weight: 600;
+}
+
+.vocab-en {
+  margin: 0.25rem 0 0 0;
+  opacity: 0.85;
+}
+
+@media (max-width: 900px) {
+  .reader-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .reader-vocab {
+    position: static;
+  }
+}
+
 .footer {
   padding: 5px;
   left: 0;
